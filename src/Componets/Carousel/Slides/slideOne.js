@@ -35,6 +35,7 @@ const useStyles = makeStyles(() => ({
         '& .textContainer':{
             position:'relative !important', 
             height:'78vh',
+            textAlign:'left '
         },
         '& .mainText':{
             width:'85%',
@@ -94,26 +95,26 @@ event.target.style.color='grey'
                                 </Typography> 
                             </div>
                         
-                        <div className="buttons">
-                             <span >
-                                <Button style={{color:'white', 
-                                              background:'#B93F2F', 
-                                              width:'200px',                                              
-                                            position:'relative', 
-                                             height:'3rem',  
-                                            fontWeight:'900', 
-                                            fontSize:'1rem',
-                                            borderRadius:'30px',
-                                         } }>
-                                Get Started
-                                </Button>
-                                <span>
-                                    <Button onMouseOver={mouseOver} onMouseOut={mouseOut} style={{color:'grey', fontWeight:'600', fontSize:'0.8rem'}}>
-                                        Get 1 Month Premium On Us.
+                            <div className="buttons">
+                                <span >
+                                    <Button style={{color:'white', 
+                                                background:'#B93F2F', 
+                                                width:'200px',                                              
+                                                position:'relative', 
+                                                height:'3rem',  
+                                                fontWeight:'900', 
+                                                fontSize:'1rem',
+                                                borderRadius:'30px',
+                                            } }>
+                                    Get Started
                                     </Button>
+                                    <span>
+                                        <Button onMouseOver={mouseOver} onMouseOut={mouseOut} style={{color:'grey', fontWeight:'600', fontSize:'0.8rem'}}>
+                                            Get 1 Month Premium On Us.
+                                        </Button>
+                                    </span>
                                 </span>
-                            </span>
-                        </div>
+                            </div>
                         </Grid>
                         <Grid item xs={6} className="HeadImage">
 
