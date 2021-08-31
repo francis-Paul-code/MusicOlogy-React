@@ -1,8 +1,9 @@
 import React from 'react';
-import {Grid, Typography, Button, Carousel} from '@material-ui/core';
+import {Grid, Typography, Button} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import CarouselSlide from '../../Componets/carouselSlide';
+import CarouselSlide from '../../Componets/Carousel/carouselSlide';
 import { Link, BrowserRouter as Router } from 'react-router-dom';
+// export let logo = document.getElementByClassName('.logo');
 
 const useStyle = makeStyles(() => ({
     root:{
@@ -29,9 +30,9 @@ const useStyle = makeStyles(() => ({
             width:'45%',
             height:'100%',
             color:'white',
-            fontFamily:"'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif",
-            fontWeight:'600',
-            fontSize:'28px',
+            fontFamily:'system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important',
+            fontWeight:'700',
+            fontSize:'2rem',
             textAlign:'right',
             padding:'5px 5px 0 5px'
 
@@ -41,9 +42,9 @@ const useStyle = makeStyles(() => ({
             width:'45%',
             height:'100%',
             color:'#B93F2F',
-            fontFamily:"'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif",
-            fontWeight:'600',
-            fontSize:'28px',
+            fontFamily:'system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important',
+            fontWeight:'700',
+            fontSize:'2rem',
             textAlign:'left',
             padding:'5px 0 0 0'
         },
@@ -54,7 +55,6 @@ const useStyle = makeStyles(() => ({
         },
         '& .carouselSlide':{
             position:'absolute',
-            background:'green',
             top:'9%',
             height:'84%',
             width:'100%',
@@ -80,11 +80,10 @@ const useStyle = makeStyles(() => ({
         },
         '& .carousel':{
             position:'relative',
-            height:'94%',
-            width:'90%',
-            left:'5%',
-            top:'3%',
-            background:'black'
+            height:'96%',
+            width:'96%',
+            left:'2%',
+            top:'2%'
         }
         
     }
@@ -110,6 +109,8 @@ event.target.style.color='#ffff'
 const mouseOut2 = (event) => {
 event.target.style.color='#B93F2F'
 };
+
+
     return (
         <div className={classes.root}>
             <div className="Nav">

@@ -1,4 +1,7 @@
 body {
+  height:100%;
+  width:100%;
+  margin:0;
   text-align: center;  
   min-height: 100vh;
   background: linear-gradient(180deg, #000000 0%, #06092A 65.23%, #06092A 100%);
