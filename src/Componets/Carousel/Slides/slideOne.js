@@ -35,7 +35,7 @@ const useStyles = makeStyles(() => ({
         '& .textContainer':{
             position:'relative !important', 
             height:'78vh',
-            textAlign:'left ',
+            textAlign:'left !important',
             display:'block'
         },
         '& .mainText':{
