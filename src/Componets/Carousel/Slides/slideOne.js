@@ -15,27 +15,28 @@ const useStyles = makeStyles(() => ({
         backdropFilter: 'blur(22.9739px)',
         borderRadius:'36px',
         '& .slideOne':{
-            position:'relative',
-            width:'100%',
-            height:'100%',
+            position:'relative !important',
+            width:'100% !important',
+            height:'100% !important',
         },
-        '& .container':{
+        '& .slideContainer':{
             position:'relative',
-            width:'100%',
+            width:'100% !important',
             height:'100%',
         },
         '& .HeadImage':{
             position:'relative !important', 
             height:'78vh',
-            backgroundImage:'url(/static/media/HeadImage.7ece86f1.png)',
-            backgroundRepeat:'no-repeat',
+            backgroundImage:'url('+headImage+')',
             backgroundSize:'contain',
-            backgroundPosition:'center'
+            backgroundPosition:'center',
+            backgroundRepeat:'no-repeat'
         },
         '& .textContainer':{
             position:'relative !important', 
             height:'78vh',
-            textAlign:'left '
+            textAlign:'left ',
+            display:'block'
         },
         '& .mainText':{
             width:'85%',
@@ -83,9 +84,9 @@ event.target.style.color='grey'
     return (
         <div className={classes.root}>
             <Grid className="slideOne">
-            <div className="container">
-                    <Grid container justifyContent="space-around" spacing={0.5}>
-                        <Grid item xs={6} className="textContainer">
+            <div className="slideContainer">
+                    <Grid container  spacing={0.5}>
+                        <Grid item xs={7} className="textContainer">
                             <div style={{position:'relative', top:'15%'}}>
                                 <Typography className="mainText">
                                     Without Music Life Is A Mistake
@@ -94,9 +95,8 @@ event.target.style.color='grey'
                                     Try MusicOlogy Premium Free For 1 Month
                                 </Typography> 
                             </div>
-                        
                             <div className="buttons">
-                                <span >
+                                <span style={{margin:'0', padding:'0', float:'left'}}>
                                     <Button style={{color:'white', 
                                                 background:'#B93F2F', 
                                                 width:'200px',                                              
@@ -116,8 +116,8 @@ event.target.style.color='grey'
                                 </span>
                             </div>
                         </Grid>
-                        <Grid item xs={6} className="HeadImage">
 
+                        <Grid item xs={5} className="HeadImage">
                         </Grid> 
                     </Grid>
                 </div> 

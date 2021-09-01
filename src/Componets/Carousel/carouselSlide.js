@@ -4,9 +4,6 @@ import SlideTwo from './Slides/slideTwo';
 import SlideOne from './Slides/slideOne';
 import SlideThree from './Slides/slideThree';
 import {Carousel} from 'react-bootstrap';
-import Slide1 from '../../Images/Frame 1.png';
-import Slide2 from '../../Images/Mobile Player.png';
-import Slide3 from '../../Images/Desktop Player.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
