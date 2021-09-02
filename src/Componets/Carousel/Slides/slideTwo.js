@@ -2,7 +2,8 @@ import React from 'react';
 import { makeStyles, Grid, Typography, Button } from '@material-ui/core';
 import headImage from '../../../Images/MockUpHeadImage.png';
 import Image from '../../../Images/headpic.png';
-import { Apple } from '@material-ui/icons';
+import Apple from '@material-ui/icons/Apple.js';
+import {FaGooglePlay} from 'react-icons/fa';
 
 const useStyles = makeStyles(() => ({
     root:{
@@ -55,11 +56,15 @@ const SlideTwo = () => {
                             </Grid>
                             <Grid item xs={5} className="grid2"> 
                                     <Grid className="btnGroup">
-                                            <Button variant="outlined" starticon={<Apple/>} style={{color:'white', fontSize:'0.5rem', fontFamily:'sans serif'}}>
-                                                Download on the
-                                                <h3 style={{color:'white', fontWeight:'900 ',fontSize:'2rem', fontFamily:'system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji", '}}>App Store</h3>
+                                            <Button variant="outlined" startIcon={<Apple/>} style={{color:'white', fontSize:'0.5rem', fontFamily:'sans serif', display:'block'}}>
+                                                <h3 style={{position:'relative', fontSize:'0.5rem'}}>Download on the</h3> 
+                                                <h3 style={{color:'white', fontWeight:'600 ',fontSize:'1.2rem', fontFamily:'system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji", '}}>App Store</h3>
                                             </Button>
-                        
+                                            <Button variant="contained" startIcon={<FaGooglePlay/>} style={{color:'white', fontSize:'0.5rem', fontFamily:'sans serif', display:'block'}}>
+                                                <h3 style={{position:'relative', fontSize:'0.5rem'}}>Get it On</h3> 
+                                                <h3 style={{color:'white', fontWeight:'600 ',fontSize:'1.2rem', fontFamily:'system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji", '}}>Google PLay</h3>
+                                            </Button> 
+
                                     </Grid>
                             </Grid>
                     </Grid> 

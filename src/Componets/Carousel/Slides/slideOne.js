@@ -36,23 +36,23 @@ const useStyles = makeStyles(() => ({
             position:'relative !important', 
             height:'78vh',
             textAlign:'left !important',
-            display:'block'
+            display:'block' 
         },
         '& .mainText':{
-            width:'85%',
-            position:'relative',
+            width:'70%',
+            position:'relative !important',
             color:'white',
-            float:'left ',
+            float:'left',
             fontFamily:'system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important',
             fontWeight:'bolder !important',
             lineHeight:'1',
-            fontSize:'4.3rem !important',
+            fontSize:'4.5rem !important',
             left:'15%'
 
         },
         '& .subText':{
-            width:'85%',
-            position:'relative',
+            width:'70%',
+            position:'relative !important',
             color:'#B93F2F',
             float:'left ',
             fontFamily:'system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important',
