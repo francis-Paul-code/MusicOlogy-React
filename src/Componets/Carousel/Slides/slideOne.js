@@ -46,7 +46,7 @@ const useStyles = makeStyles(() => ({
             fontFamily:'Ubuntu !important',
             fontWeight:'bolder !important',
             lineHeight:'1',
-            fontSize:'5.7vw !important',
+            fontSize:'5.5vw !important',
             left:'15%'
         },
         '& .subText':{
@@ -57,7 +57,7 @@ const useStyles = makeStyles(() => ({
             fontFamily:'Ubuntu !important',
             fontWeight:'bolder !important',
             lineHeight:'1',
-            fontSize:'2.7vw !important',
+            fontSize:'2.5vw !important',
             left:'15%'
 
         },
