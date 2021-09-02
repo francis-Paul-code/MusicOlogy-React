@@ -46,9 +46,8 @@ const useStyles = makeStyles(() => ({
             fontFamily:'Ubuntu !important',
             fontWeight:'bolder !important',
             lineHeight:'1',
-            fontSize:'4.5rem !important',
+            fontSize:'5.7vw !important',
             left:'15%'
-
         },
         '& .subText':{
             width:'70%',
@@ -58,7 +57,7 @@ const useStyles = makeStyles(() => ({
             fontFamily:'Ubuntu !important',
             fontWeight:'bolder !important',
             lineHeight:'1',
-            fontSize:'2.3rem !important',
+            fontSize:'2.7vw !important',
             left:'15%'
 
         },
@@ -103,13 +102,13 @@ event.target.style.color='grey'
                                                 position:'relative', 
                                                 height:'3rem',  
                                                 fontWeight:'900', 
-                                                fontSize:'1rem',
+                                                fontSize:'1.4vw',
                                                 borderRadius:'30px',
                                             } }>
                                     Get Started
                                     </Button>
                                     <span>
-                                        <Button onMouseOver={mouseOver} onMouseOut={mouseOut} style={{color:'grey', fontWeight:'600', fontSize:'0.8rem'}}>
+                                        <Button onMouseOver={mouseOver} onMouseOut={mouseOut} style={{color:'grey', fontWeight:'600', fontSize:'1.3vw'}}>
                                             Get 1 Month Premium On Us.
                                         </Button>
                                     </span>
