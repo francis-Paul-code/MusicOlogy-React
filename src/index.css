@@ -7,7 +7,90 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color:white;
 }
-
+@font-face {
+  font-family: "Ubuntu Bold";
+  src: local("Ubutnu-B"),
+   url("./Helpers/fonts/ubuntu-font-family-0.83/Ubuntu-B.ttf") format("truetype");
+  font-weight: bold;
+  }
+  @font-face {
+    font-family: "Ubuntu Bold-Italic";
+    src: local("Ubutnu-BI"),
+     url("./Helpers/fonts/ubuntu-font-family-0.83/Ubuntu-BI.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+    }
+    @font-face {
+      font-family: "Ubuntu Condensed";
+      src: local("Ubutnu-C"),
+       url("./Helpers/fonts/ubuntu-font-family-0.83/Ubuntu-C.ttf") format("truetype");
+      font-stretch: condensed;
+      }
+      @font-face {
+        font-family: "Ubuntu Light";
+        src: local("Ubutnu-L"),
+         url("./Helpers/fonts/ubuntu-font-family-0.83/Ubuntu-L.ttf") format("truetype");
+        font-weight: lighter;
+        }
+        @font-face {
+          font-family: "Ubuntu Light-Italic";
+          src: local("Ubutnu-LI"),
+           url("./Helpers/fonts/ubuntu-font-family-0.83/Ubuntu-LI.ttf") format("truetype");
+          font-weight: lighter;
+          font-style: italic;
+          }
+          @font-face {
+            font-family: "Ubuntu";
+            src: local("Ubutnu-R"),
+             url("./Helpers/fonts/ubuntu-font-family-0.83/Ubuntu-R.ttf") format("truetype");
+            font-weight:normal;
+            }
+            @font-face {
+              font-family: "Ubuntu";
+              src: local("Ubutnu-R"),
+               url("./Helpers/fonts/ubuntu-font-family-0.83/Ubuntu-R.ttf") format("truetype");
+              font-weight:normal;
+              }
+              @font-face {
+                font-family: "Ubuntu";
+                src: local("Ubutnu-R"),
+                 url("./Helpers/fonts/ubuntu-font-family-0.83/Ubuntu-R.ttf") format("truetype");
+                font-weight:normal;
+                }
+              @font-face {
+                  font-family: "Ubuntu Italic";
+                  src: local("Ubutnu-RI"),
+                   url("./Helpers/fonts/ubuntu-font-family-0.83/Ubuntu-RI.ttf") format("truetype");
+                  font-weight:normal;
+                  font-style:italic;
+                } 
+                @font-face {
+                  font-family: "UbuntuMono Italic";
+                  src: local("UbutnuMono-RI"),
+                   url("./Helpers/fonts/ubuntu-font-family-0.83/UbuntuMono-RI.ttf") format("truetype");
+                  font-weight:normal;
+                  font-style:italic;
+                }  
+                @font-face {
+                  font-family: "UbuntuMono ";
+                  src: local("UbutnuMono-R"),
+                   url("./Helpers/fonts/ubuntu-font-family-0.83/UbuntuMono-R.ttf") format("truetype");
+                  font-weight:normal;
+                }  
+                @font-face {
+                  font-family: "UbuntuMono Bold ";
+                  src: local("UbutnuMono-B"),
+                   url("./Helpers/fonts/ubuntu-font-family-0.83/UbuntuMono-B.ttf") format("truetype");
+                  font-weight:bold;
+                } 
+                @font-face {
+                  font-family: "UbuntuMono Bold-Italic ";
+                  src: local("UbutnuMono-BI"),
+                   url("./Helpers/fonts/ubuntu-font-family-0.83/UbuntuMono-BI.ttf") format("truetype");
+                  font-weight:bold;
+                  font-style: italic;
+                }              
+            
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

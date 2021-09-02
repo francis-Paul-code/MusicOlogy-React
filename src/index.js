@@ -4,6 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import './Helpers/fonts/ubuntu-font-family-0.83/Ubuntu-B.tff';
+import './Helpers/fonts/ubuntu-font-family-0.83/Ubuntu-BI.tff';
+import './Helpers/fonts/ubuntu-font-family-0.83/Ubuntu-C.tff';
+import './Helpers/fonts/ubuntu-font-family-0.83/Ubuntu-L.tff';
+import './Helpers/fonts/ubuntu-font-family-0.83/Ubuntu-LI.tff';
+import './Helpers/fonts/ubuntu-font-family-0.83/Ubuntu-R.tff';
+import './Helpers/fonts/ubuntu-font-family-0.83/Ubuntu-RI.tff';
+import './Helpers/fonts/ubuntu-font-family-0.83/UbuntuMono-R.tff';
+import './Helpers/fonts/ubuntu-font-family-0.83/UbuntuMono-RI.tff';
+import './Helpers/fonts/ubuntu-font-family-0.83/UbuntuMono-B.tff';
+import './Helpers/fonts/ubuntu-font-family-0.83/UbuntuMono-BI.tff';
 ReactDOM.render(
   <React.StrictMode>
     <App />
