@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles, Grid, Typography, Button } from '@material-ui/core';
 import headImage from '../../../Images/MockUpHeadImage.png';
-import Image from '../../../Images/headpic.png';
+import Image from '../../../Images/head.png';
 import AppleIcon from '@material-ui/icons/Apple';
 import {FaGooglePlay} from 'react-icons/fa';
 
