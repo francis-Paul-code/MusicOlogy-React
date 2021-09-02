@@ -146,7 +146,7 @@ event.target.style.color='#B93F2F'
                             <Button  onMouseOver={mouseOver2} onMouseOut={mouseOut2}  style={{color:'#B93F2F', 
                                                                                             width:'130px', 
                                                                                             fontWeight:'600', 
-                                                                                            fontSize:'1vw'}}>
+                                                                                            fontSize:'1.4vw'}}>
                                 Sign Up
                             </Button>
                     
@@ -156,7 +156,7 @@ event.target.style.color='#B93F2F'
                                             position:'relative', 
                                              height:'80%',  
                                             fontWeight:'900', 
-                                            fontSize:'1.4vw',
+                                            fontSize:'1vw',
                                             borderRadius:'50px'} }>                                              
                                 Log In
                             </Button>
