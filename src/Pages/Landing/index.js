@@ -32,7 +32,7 @@ const useStyle = makeStyles(() => ({
             color:'white',
             fontFamily:'Ubuntu !important',
             fontWeight:'700',
-            fontSize:'2.7vw',
+            fontSize:'2.5vw',
             textAlign:'right',
             padding:'5px 5px 0 5px'
 
@@ -44,7 +44,7 @@ const useStyle = makeStyles(() => ({
             color:'#B93F2F',
             fontFamily:'Ubuntu !important',
             fontWeight:'700',
-            fontSize:'2.7vw',
+            fontSize:'2.5vw',
             textAlign:'left',
             padding:'5px 0 0 0'
         },
@@ -75,7 +75,7 @@ const useStyle = makeStyles(() => ({
         },
         '& .footerContainer p':{
             fontWeight:'600',
-            fontSize:'1.6vw',
+            fontSize:'1.4vw',
 
         },
         '& .carousel':{
@@ -125,28 +125,28 @@ event.target.style.color='#B93F2F'
                             <Button onMouseOver={mouseOver} onMouseOut={mouseOut} style={{color:'white', 
                                                                                            width:'130px',  
                                                                                            fontWeight:'600', 
-                                                                                           fontSize:'1.6vw'}}> 
+                                                                                           fontSize:'1.4vw'}}> 
                                 Premium
                             </Button>
                         
                             <Button onMouseOver={mouseOver} onMouseOut={mouseOut} style={{color:'white', 
                                                                                            width:'130px',  
                                                                                            fontWeight:'600', 
-                                                                                           fontSize:'1.6vw'}}> 
+                                                                                           fontSize:'1.4vw'}}> 
                                 Download
                             </Button>
             
                             <Button onMouseOver={mouseOver} onMouseOut={mouseOut}  style={{color:'white', 
                                                                                            width:'130px',  
                                                                                            fontWeight:'600', 
-                                                                                           fontSize:'1.6vw'}}>
+                                                                                           fontSize:'1.4vw'}}>
                                 Support
                             </Button>
                     
                             <Button  onMouseOver={mouseOver2} onMouseOut={mouseOut2}  style={{color:'#B93F2F', 
                                                                                             width:'130px', 
                                                                                             fontWeight:'600', 
-                                                                                            fontSize:'1.6vw'}}>
+                                                                                            fontSize:'1.3vw'}}>
                                 Sign Up
                             </Button>
                     
@@ -156,7 +156,7 @@ event.target.style.color='#B93F2F'
                                             position:'relative', 
                                              height:'80%',  
                                             fontWeight:'900', 
-                                            fontSize:'1.6vw',
+                                            fontSize:'1.4vw',
                                             borderRadius:'50px'} }>                                              
                                 Log In
                             </Button>

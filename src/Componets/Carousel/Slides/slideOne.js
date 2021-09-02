@@ -102,13 +102,13 @@ event.target.style.color='grey'
                                                 position:'relative', 
                                                 height:'3rem',  
                                                 fontWeight:'900', 
-                                                fontSize:'1.4vw',
+                                                fontSize:'1.2vw',
                                                 borderRadius:'30px',
                                             } }>
                                     Get Started
                                     </Button>
                                     <span>
-                                        <Button onMouseOver={mouseOver} onMouseOut={mouseOut} style={{color:'grey', fontWeight:'600', fontSize:'1.3vw'}}>
+                                        <Button onMouseOver={mouseOver} onMouseOut={mouseOut} style={{color:'grey', fontWeight:'600', fontSize:'1.1vw'}}>
                                             Get 1 Month Premium On Us.
                                         </Button>
                                     </span>
