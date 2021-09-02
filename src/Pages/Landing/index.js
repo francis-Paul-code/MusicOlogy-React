@@ -32,7 +32,7 @@ const useStyle = makeStyles(() => ({
             color:'white',
             fontFamily:'Ubuntu !important',
             fontWeight:'700',
-            fontSize:'2.5vw',
+            fontSize:'2.1vw',
             textAlign:'right',
             padding:'5px 5px 0 5px'
 
@@ -44,7 +44,7 @@ const useStyle = makeStyles(() => ({
             color:'#B93F2F',
             fontFamily:'Ubuntu !important',
             fontWeight:'700',
-            fontSize:'2.5vw',
+            fontSize:'2.1vw',
             textAlign:'left',
             padding:'5px 0 0 0'
         },
@@ -146,7 +146,7 @@ event.target.style.color='#B93F2F'
                             <Button  onMouseOver={mouseOver2} onMouseOut={mouseOut2}  style={{color:'#B93F2F', 
                                                                                             width:'130px', 
                                                                                             fontWeight:'600', 
-                                                                                            fontSize:'1.3vw'}}>
+                                                                                            fontSize:'1vw'}}>
                                 Sign Up
                             </Button>
                     
