@@ -28,10 +28,28 @@ const useStyles = makeStyles(() => ({
             width:'25%',
             height:'86%',
             top:'7%',
-            borderRadius:'8px',
-            background:'white'
-
+            borderRadius:'2%',
+            background:'white',
+            display:"block"
         },
+        '& .btnGroup':{
+            position:"relative",
+            width:"100%",
+            height:"30%",
+            textAlign:"center"
+        },
+        '& .textGroup':{
+            position:"relative",
+            width:"100%",
+            height:"70%",
+            textAlign:"center"
+        },
+        '& .titleHead':{
+            position:'relative',
+            width:'100%',
+            height:'20%',
+            background:'#06092A'
+        }
     }
 }));
 const SlideThree = () => {
@@ -41,28 +59,73 @@ const SlideThree = () => {
             <Grid className="slideThree">
                  <Grid className="cardHolder">
                         <Card className="card One">
-                            <CardContent>
-
+                            <CardContent className="textGroup">
+                                <Grid className="titleHead">
+                                    <Typography style={{fonFamily:'Ubuntu Bold', color:'white'}}>
+                                        Basic
+                                    </Typography>
+                                </Grid>
+                                <Grid className="textContent">
+                                    
+                                </Grid>
                             </CardContent>
-                            <CardActions>
+                            <CardActions className="btnGroup">
+                                <Button variant="contained" style={{position:'relative',background:'#504E4E', fontSize:'1vw',borderRadius:'1%'}} >
+                                    Try It now
+                                </Button>
+                                <Button style={{color:'#070D4D', fontFamily:'Ubuntu'}}>
+                                    More Info
+                                </Button>
 
                             </CardActions>
                         </Card>
 
                         <Card className="card Two">
-                            <CardContent>
-
+                        <CardContent className="textGroup">
+                                <Grid className="titleHead">
+                                    <Typography>
+                                        Standard
+                                    </Typography>
+                                </Grid>
+                                <Grid className="textContent">
+                                    
+                                </Grid>
                             </CardContent>
-                            <CardActions>
+                            <CardActions className="btnGroup">
+                                <Typography style={{fonFamily:'Ubuntu'}}>
+                                   1 Month Free
+                                </Typography>
+                                <Button variant="contained" style={{position:'relative',background:'#B93F2F', fontSize:'1vw',borderRadius:'1%'}}  >
+                                    Try It now
+                                </Button>
+                                <Button style={{color:'#070D4D', fontFamily:'Ubuntu'}}>
+                                    More Info
+                                </Button>
 
                             </CardActions>
                         </Card>
 
                         <Card className="card Three">
-                            <CardContent>
-
+                        <CardContent className="textGroup">
+                                <Grid className="titleHead">
+                                    <Typography>
+                                        Premium
+                                    </Typography>
+                                </Grid>
+                                <Grid className="textContent">
+                                    
+                                </Grid>
                             </CardContent>
-                            <CardActions>
+                            <CardActions className="btnGroup">
+                               <Typography style={{fonFamily:'Ubuntu'}}>
+                                   1 Month Free
+                               </Typography>
+                                <Button variant="contained" style={{position:'relative',background:'#504E4E', fontSize:'1vw',borderRadius:'1%'}} >
+                                    Try It now
+                                </Button>
+                                <Button style={{color:'#070D4D', fontFamily:'Ubuntu'}}>
+                                    More Info
+                                </Button>
 
                             </CardActions>
                         </Card>
