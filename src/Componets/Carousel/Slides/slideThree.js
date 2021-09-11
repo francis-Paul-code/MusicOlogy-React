@@ -25,10 +25,10 @@ const useStyles = makeStyles(() => ({
         },
         '& .card':{
             position:'relative',
-            width:'30%',
-            height:'90%',
-            top:'5%',
-            borderRadius:'12px',
+            width:'25%',
+            height:'86%',
+            top:'7%',
+            borderRadius:'8px',
             background:'white'
 
         },
