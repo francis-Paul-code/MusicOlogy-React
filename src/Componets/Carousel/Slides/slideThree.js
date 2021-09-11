@@ -1,5 +1,5 @@
 import React from 'react'
-import { makeStyles, Grid, Typography } from '@material-ui/core';
+import { makeStyles, Grid, Typography,Button, Card, CardActions, CardContent } from '@material-ui/core';
 
 const useStyles = makeStyles(() => ({
     root:{
@@ -16,6 +16,22 @@ const useStyles = makeStyles(() => ({
             width:'100%',
             height:'78vh',
         },
+        '& .cardHolder':{
+            position:'relative',
+            width:'100%',
+            height:'100%',
+            justifyContent:'space-evenly',
+            display:'flex'
+        },
+        '& .card':{
+            position:'relative',
+            width:'30%',
+            height:'90%',
+            top:'5%',
+            borderRadius:'12px',
+            background:'white'
+
+        },
     }
 }));
 const SlideThree = () => {
@@ -23,7 +39,34 @@ const SlideThree = () => {
     return (
         <div className={classes.root}>
             <Grid className="slideThree">
-                SlideThree
+                 <Grid className="cardHolder">
+                        <Card className="card One">
+                            <CardContent>
+
+                            </CardContent>
+                            <CardActions>
+
+                            </CardActions>
+                        </Card>
+
+                        <Card className="card Two">
+                            <CardContent>
+
+                            </CardContent>
+                            <CardActions>
+
+                            </CardActions>
+                        </Card>
+
+                        <Card className="card Three">
+                            <CardContent>
+
+                            </CardContent>
+                            <CardActions>
+
+                            </CardActions>
+                        </Card>
+                 </Grid>
             </Grid>
         </div>
     )
