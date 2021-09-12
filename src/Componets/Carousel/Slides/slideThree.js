@@ -56,12 +56,24 @@ const useStyles = makeStyles(() => ({
     }
 }));
 const SlideThree = () => {
+
+    const mouseOver = (event) => {
+    
+        event.target.style.height='88%'
+        event.target.style.width='28%'
+    };
+    const mouseOut = (event) => {
+        event.target.style.height='86%'
+        event.target.style.width='25%'
+    };
+
+
     const classes = useStyles();
     return (
         <div className={classes.root}>
             <Grid className="slideThree">
                  <Grid className="cardHolder">
-                        <Card className="card One">
+                        <Card className="card One" onMouseOver={mouseOver} onMouseOut={mouseOut}>
                             <CardContent className="textGroup">
                                 <Grid className="titleHead">
                                     <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.7vw',color:'white', padding:'5px'}}>
@@ -74,7 +86,7 @@ const SlideThree = () => {
                             </CardContent>
                             <CardActions className="btnGroup">
 
-                                <Grid style={{paddingBottom:'0',position:'relative', paddingTop:'3.5vh%'}}>
+                                <Grid style={{paddingBottom:'0',position:'relative', paddingTop:'3.5vh'}}>
                                     <Button variant="contained" style={{position:'relative',background:'#504E4E', fontSize:'1vw',borderRadius:'1%',color:'white',fontFamily:'Ubuntu Bold'}} >
                                              Try It now
                                     </Button>
@@ -87,7 +99,7 @@ const SlideThree = () => {
                             </CardActions>
                         </Card>
 
-                        <Card className="card Two">
+                        <Card className="card Two" onMouseOver={mouseOver} onMouseOut={mouseOut}>
                         <CardContent className="textGroup">
                                 <Grid className="titleHead">
                                     <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.7vw',color:'white', padding:'5px'}}>
@@ -115,7 +127,7 @@ const SlideThree = () => {
                             </CardActions>
                         </Card>
 
-                        <Card className="card Three">
+                        <Card className="card Three" onMouseOver={mouseOver} onMouseOut={mouseOut}>
                         <CardContent className="textGroup">
                                 <Grid className="titleHead">
                                     <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.7vw',color:'white', padding:'5px'}}>
