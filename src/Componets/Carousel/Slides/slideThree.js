@@ -99,7 +99,7 @@ const SlideThree = () => {
                                 </Grid>
                             </CardContent>
                             <CardActions className="btnGroup">
-                                <Typography style={{fonFamily:'Ubuntu Bold'}}>
+                                <Typography style={{fontFamily:'Ubuntu Bold'}}>
                                    1 Month Free
                                 </Typography>
                                 <Grid style={{paddingBottom:'0'}}>
