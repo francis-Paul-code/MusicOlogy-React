@@ -64,7 +64,7 @@ const SlideThree = () => {
                         <Card className="card One">
                             <CardContent className="textGroup">
                                 <Grid className="titleHead">
-                                    <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.4vw',color:'white', padding:'5px'}}>
+                                    <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.7vw',color:'white', padding:'5px'}}>
                                         Basic
                                     </Typography>
                                 </Grid>
@@ -90,7 +90,7 @@ const SlideThree = () => {
                         <Card className="card Two">
                         <CardContent className="textGroup">
                                 <Grid className="titleHead">
-                                    <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.4vw',color:'white', padding:'5px'}}>
+                                    <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.7vw',color:'white', padding:'5px'}}>
                                         Standard
                                     </Typography>
                                 </Grid>
@@ -118,7 +118,7 @@ const SlideThree = () => {
                         <Card className="card Three">
                         <CardContent className="textGroup">
                                 <Grid className="titleHead">
-                                    <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.4vw',color:'white', padding:'5px'}}>
+                                    <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.7vw',color:'white', padding:'5px'}}>
                                         Premium
                                     </Typography>
                                 </Grid>
