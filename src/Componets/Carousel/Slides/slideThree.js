@@ -42,7 +42,7 @@ const useStyles = makeStyles(() => ({
         '& .textGroup':{
             position:"relative",
             width:"100%",
-            height:"80%",
+            height:"75%",
             textAlign:"center",
             padding:'0',
             background:'linear-gradient(180deg, #06092A 0%, #06092A 20%, #FFFFFF 20%);'
@@ -50,7 +50,7 @@ const useStyles = makeStyles(() => ({
         '& .titleHead':{
             position:'relative',
             width:'100%',
-            height:'20%',
+            height:'25%',
             fontFamily:'Ubuntu Bold'
         }
     }
