@@ -30,19 +30,19 @@ const useStyles = makeStyles(() => ({
             top:'7%',
             borderRadius:'2%',
             background:'white',
-            display:"block"
+            display:"inline"
         },
         '& .btnGroup':{
             position:"relative",
             width:"100%",
-            height:"30%",
+            height:"20%",
             textAlign:"center",
-            display:'block'
+            display:'inline-grid'
         },
         '& .textGroup':{
             position:"relative",
             width:"100%",
-            height:"70%",
+            height:"80%",
             textAlign:"center",
             padding:'0',
             background:'linear-gradient(180deg, #06092A 0%, #06092A 20%, #FFFFFF 20%);'
@@ -64,7 +64,7 @@ const SlideThree = () => {
                         <Card className="card One">
                             <CardContent className="textGroup">
                                 <Grid className="titleHead">
-                                    <Typography style={{fontFamily:'Ubuntu Bold',fontSize:'1.4vw',color:'white', padding:'5px'}}>
+                                    <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.4vw',color:'white', padding:'5px'}}>
                                         Basic
                                     </Typography>
                                 </Grid>
@@ -73,20 +73,24 @@ const SlideThree = () => {
                                 </Grid>
                             </CardContent>
                             <CardActions className="btnGroup">
-                                <Button variant="contained" style={{position:'relative',background:'#504E4E', fontSize:'1vw',borderRadius:'1%'}} >
-                                    Try It now
-                                </Button>
-                                <Button style={{color:'#070D4D', fontFamily:'Ubuntu'}}>
-                                    More Info
-                                </Button>
 
+                                <Grid>
+                                    <Button variant="contained" style={{position:'relative',background:'#504E4E', fontSize:'1vw',borderRadius:'1%'}} >
+                                             Try It now
+                                    </Button>
+                                </Grid>
+                                <Grid>
+                                    <Button style={{color:'#070D4D', fontFamily:'Ubuntu Bold'}}>
+                                        More Info
+                                    </Button>
+                                </Grid>
                             </CardActions>
                         </Card>
 
                         <Card className="card Two">
                         <CardContent className="textGroup">
                                 <Grid className="titleHead">
-                                    <Typography style={{fontFamily:'Ubuntu Bold',fontSize:'1.4vw',color:'white', padding:'5px'}}>
+                                    <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.4vw',color:'white', padding:'5px'}}>
                                         Standard
                                     </Typography>
                                 </Grid>
@@ -95,23 +99,26 @@ const SlideThree = () => {
                                 </Grid>
                             </CardContent>
                             <CardActions className="btnGroup">
-                                <Typography style={{fonFamily:'Ubuntu'}}>
+                                <Typography style={{fonFamily:'Ubuntu Bold'}}>
                                    1 Month Free
                                 </Typography>
-                                <Button variant="contained" style={{position:'relative',background:'#B93F2F', fontSize:'1vw',borderRadius:'1%'}}  >
-                                    Try It now
-                                </Button>
-                                <Button style={{color:'#070D4D', fontFamily:'Ubuntu'}}>
-                                    More Info
-                                </Button>
-
+                                <Grid>
+                                    <Button variant="contained" style={{position:'relative',background:'#B93F2F', fontSize:'1vw',borderRadius:'1%'}}  >
+                                        Try It now
+                                    </Button>
+                                </Grid>
+                                <Grid>
+                                    <Button style={{color:'#070D4D', fontFamily:'Ubuntu Bold'}}>
+                                        More Info
+                                    </Button>
+                                </Grid>
                             </CardActions>
                         </Card>
 
                         <Card className="card Three">
                         <CardContent className="textGroup">
                                 <Grid className="titleHead">
-                                    <Typography style={{fontFamily:'Ubuntu Bold',fontSize:'1.4vw',color:'white', padding:'5px'}}>
+                                    <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.4vw',color:'white', padding:'5px'}}>
                                         Premium
                                     </Typography>
                                 </Grid>
@@ -120,13 +127,20 @@ const SlideThree = () => {
                                 </Grid>
                             </CardContent>
                             <CardActions className="btnGroup">
-                               <Typography style={{fonFamily:'Ubuntu'}}>
+                               <Typography style={{fonFamily:'Ubuntu Bold'}}>
                                    1 Month Free
                                </Typography>
-                                <Button variant="contained" style={{position:'relative',background:'#504E4E', fontSize:'1vw',borderRadius:'1%'}} >
-                                    Try It now
-                                </Button>
-                                <Button style={{color:'#070D4D', fontFamily:'Ubuntu'}}>
+                               <Grid>
+                                    <Button variant="contained" style={{position:'relative',background:'#504E4E', fontSize:'1vw',borderRadius:'1%'}} >
+                                            Try It now
+                                    </Button>
+                               </Grid>
+                               <Grid>
+                                    <Button style={{color:'#070D4D', fontFamily:'Ubuntu Bold'}}>
+                                            More Info
+                                    </Button>
+                               </Grid>
+                                <Button style={{color:'#070D4D', fontFamily:'Ubuntu Bold'}}>
                                     More Info
                                 </Button>
 
