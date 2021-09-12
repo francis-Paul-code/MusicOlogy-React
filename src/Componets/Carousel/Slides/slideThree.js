@@ -56,24 +56,12 @@ const useStyles = makeStyles(() => ({
     }
 }));
 const SlideThree = () => {
-
-    const mouseOver = (event) => {
-    
-        event.target.style.height='88%'
-        event.target.style.width='28%'
-    };
-    const mouseOut = (event) => {
-        event.target.style.height='86%'
-        event.target.style.width='25%'
-    };
-
-
     const classes = useStyles();
     return (
         <div className={classes.root}>
             <Grid className="slideThree">
                  <Grid className="cardHolder">
-                        <Card className="card One" onMouseOver={mouseOver} onMouseOut={mouseOut}>
+                        <Card className="card One">
                             <CardContent className="textGroup">
                                 <Grid className="titleHead">
                                     <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.7vw',color:'white', padding:'5px'}}>
@@ -99,7 +87,7 @@ const SlideThree = () => {
                             </CardActions>
                         </Card>
 
-                        <Card className="card Two" onMouseOver={mouseOver} onMouseOut={mouseOut}>
+                        <Card className="card Two">
                         <CardContent className="textGroup">
                                 <Grid className="titleHead">
                                     <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.7vw',color:'white', padding:'5px'}}>
@@ -127,7 +115,7 @@ const SlideThree = () => {
                             </CardActions>
                         </Card>
 
-                        <Card className="card Three" onMouseOver={mouseOver} onMouseOut={mouseOut}>
+                        <Card className="card Three">
                         <CardContent className="textGroup">
                                 <Grid className="titleHead">
                                     <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.7vw',color:'white', padding:'5px'}}>
