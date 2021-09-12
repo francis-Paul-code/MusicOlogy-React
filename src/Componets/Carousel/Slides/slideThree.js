@@ -74,7 +74,7 @@ const SlideThree = () => {
                             </CardContent>
                             <CardActions className="btnGroup">
 
-                                <Grid style={{paddingBottom:'0',position:'relative', paddingTop:'10%'}}>
+                                <Grid style={{paddingBottom:'0',position:'relative', paddingTop:'3.5vh%'}}>
                                     <Button variant="contained" style={{position:'relative',background:'#504E4E', fontSize:'1vw',borderRadius:'1%',color:'white',fontFamily:'Ubuntu Bold'}} >
                                              Try It now
                                     </Button>
