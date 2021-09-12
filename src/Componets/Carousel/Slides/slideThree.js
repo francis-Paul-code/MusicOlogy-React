@@ -36,13 +36,15 @@ const useStyles = makeStyles(() => ({
             position:"relative",
             width:"100%",
             height:"30%",
-            textAlign:"center"
+            textAlign:"center",
+            display:'block'
         },
         '& .textGroup':{
             position:"relative",
             width:"100%",
             height:"70%",
             textAlign:"center",
+            padding:'0',
             background:'linear-gradient(180deg, #06092A 0%, #06092A 20%, #FFFFFF 20%);'
         },
         '& .titleHead':{
@@ -62,7 +64,7 @@ const SlideThree = () => {
                         <Card className="card One">
                             <CardContent className="textGroup">
                                 <Grid className="titleHead">
-                                    <Typography style={{fonFamily:'Ubuntu Bold', color:'white'}}>
+                                    <Typography style={{fontFamily:'Ubuntu Bold',fontSize:'1.4vw',color:'white', padding:'5px'}}>
                                         Basic
                                     </Typography>
                                 </Grid>
@@ -84,7 +86,7 @@ const SlideThree = () => {
                         <Card className="card Two">
                         <CardContent className="textGroup">
                                 <Grid className="titleHead">
-                                    <Typography>
+                                    <Typography style={{fontFamily:'Ubuntu Bold',fontSize:'1.4vw',color:'white', padding:'5px'}}>
                                         Standard
                                     </Typography>
                                 </Grid>
@@ -109,7 +111,7 @@ const SlideThree = () => {
                         <Card className="card Three">
                         <CardContent className="textGroup">
                                 <Grid className="titleHead">
-                                    <Typography>
+                                    <Typography style={{fontFamily:'Ubuntu Bold',fontSize:'1.4vw',color:'white', padding:'5px'}}>
                                         Premium
                                     </Typography>
                                 </Grid>
