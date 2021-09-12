@@ -42,13 +42,14 @@ const useStyles = makeStyles(() => ({
             position:"relative",
             width:"100%",
             height:"70%",
-            textAlign:"center"
+            textAlign:"center",
+            background:'linear-gradient(180deg, #06092A 0%, #06092A 20%, #FFFFFF 20%);'
         },
         '& .titleHead':{
             position:'relative',
             width:'100%',
             height:'20%',
-            background:'#06092A'
+            fontFamily:'Ubuntu Bold'
         }
     }
 }));
