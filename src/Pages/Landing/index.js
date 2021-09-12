@@ -114,10 +114,35 @@ event.target.style.color='#B93F2F'
     return (
         <div className={classes.root}>
             <div className="Nav">
+                <Grid className="logo">
+                    <Typography className="logo1">Music</Typography>
+                    <Typography className="logo2">Ology</Typography>
+                </Grid>
                 <Grid className="navLinks">
 
                     <ul style={{padding:'5px 5px 0 5px', margin:'0', position:'relative', right:'10%', float:'right'}}>
 
+                            <Button onMouseOver={mouseOver} onMouseOut={mouseOut} style={{color:'white', 
+                                                                                           width:'130px',  
+                                                                                           fontWeight:'600', 
+                                                                                           fontSize:'1.4vw'}}> 
+                                Premium
+                            </Button>
+                        
+                            <Button onMouseOver={mouseOver} onMouseOut={mouseOut} style={{color:'white', 
+                                                                                           width:'130px',  
+                                                                                           fontWeight:'600', 
+                                                                                           fontSize:'1.4vw'}}> 
+                                Download
+                            </Button>
+            
+                            <Button onMouseOver={mouseOver} onMouseOut={mouseOut}  style={{color:'white', 
+                                                                                           width:'130px',  
+                                                                                           fontWeight:'600', 
+                                                                                           fontSize:'1.4vw'}}>
+                                Support
+                            </Button>
+                    
                             <Button  onMouseOver={mouseOver2} onMouseOut={mouseOut2}  style={{color:'#B93F2F', 
                                                                                             width:'130px', 
                                                                                             fontWeight:'600', 
@@ -135,34 +160,7 @@ event.target.style.color='#B93F2F'
                                             borderRadius:'50px'} }>                                              
                                 Log In
                             </Button>
-                            <Button onMouseOver={mouseOver} onMouseOut={mouseOut} style={{color:'white', 
-                                                                                           width:'130px',  
-                                                                                           fontWeight:'600', 
-                                                                                           fontSize:'1.4vw'}}> 
-                                Download
-                            </Button>
-            
-                            <Button onMouseOver={mouseOver} onMouseOut={mouseOut}  style={{color:'white', 
-                                                                                           width:'130px',  
-                                                                                           fontWeight:'600', 
-                                                                                           fontSize:'1.4vw'}}>
-                                Support
-                            </Button>
-                            <Button onMouseOver={mouseOver} onMouseOut={mouseOut} style={{color:'white', 
-                                                                                           width:'130px',  
-                                                                                           fontWeight:'600', 
-                                                                                           fontSize:'1.4vw'}}> 
-                                Premium
-                            </Button>
-                        
-
-                    
-                            
                     </ul>
-                </Grid>
-                <Grid className="logo">
-                    <Typography className="logo1">Music</Typography>
-                    <Typography className="logo2">Ology</Typography>
                 </Grid>
             </div>
             <Grid className="carouselSlide">
