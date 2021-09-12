@@ -74,12 +74,12 @@ const SlideThree = () => {
                             </CardContent>
                             <CardActions className="btnGroup">
 
-                                <Grid>
-                                    <Button variant="contained" style={{position:'relative',background:'#504E4E', fontSize:'1vw',borderRadius:'1%'}} >
+                                <Grid style={{paddingBottom:'0'}}>
+                                    <Button variant="contained" style={{position:'relative',background:'#504E4E', fontSize:'1vw',borderRadius:'1%',color:'white',fontFamily:'Ubuntu Bold'}} >
                                              Try It now
                                     </Button>
                                 </Grid>
-                                <Grid>
+                                <Grid style={{paddingBottom:'0'}}>
                                     <Button style={{color:'#070D4D', fontFamily:'Ubuntu Bold'}}>
                                         More Info
                                     </Button>
@@ -102,12 +102,12 @@ const SlideThree = () => {
                                 <Typography style={{fonFamily:'Ubuntu Bold'}}>
                                    1 Month Free
                                 </Typography>
-                                <Grid>
-                                    <Button variant="contained" style={{position:'relative',background:'#B93F2F', fontSize:'1vw',borderRadius:'1%'}}  >
+                                <Grid style={{paddingBottom:'0'}}>
+                                    <Button variant="contained" style={{position:'relative',background:'#B93F2F', fontSize:'1vw',borderRadius:'1%',color:'white',fontFamily:'Ubuntu Bold'}}  >
                                         Try It now
                                     </Button>
                                 </Grid>
-                                <Grid>
+                                <Grid style={{paddingBottom:'0'}}>
                                     <Button style={{color:'#070D4D', fontFamily:'Ubuntu Bold'}}>
                                         More Info
                                     </Button>
@@ -127,22 +127,19 @@ const SlideThree = () => {
                                 </Grid>
                             </CardContent>
                             <CardActions className="btnGroup">
-                               <Typography style={{fonFamily:'Ubuntu Bold'}}>
+                               <Typography style={{fontFamily:'Ubuntu Bold', }}>
                                    1 Month Free
                                </Typography>
-                               <Grid>
-                                    <Button variant="contained" style={{position:'relative',background:'#504E4E', fontSize:'1vw',borderRadius:'1%'}} >
+                               <Grid style={{paddingBottom:'0'}}>
+                                    <Button variant="contained" style={{position:'relative',background:'#504E4E', fontSize:'1vw',borderRadius:'1%', color:'white',fontFamily:'Ubuntu Bold'}} >
                                             Try It now
                                     </Button>
                                </Grid>
-                               <Grid>
+                               <Grid style={{paddingBottom:'0'}}>
                                     <Button style={{color:'#070D4D', fontFamily:'Ubuntu Bold'}}>
                                             More Info
                                     </Button>
                                </Grid>
-                                <Button style={{color:'#070D4D', fontFamily:'Ubuntu Bold'}}>
-                                    More Info
-                                </Button>
 
                             </CardActions>
                         </Card>
