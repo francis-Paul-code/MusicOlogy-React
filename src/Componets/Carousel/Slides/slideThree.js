@@ -55,7 +55,7 @@ const useStyles = makeStyles(() => ({
         },
         '& .Price':{
             fontFamily:'Ubuntu Bold',
-            fontSize:'2.5vw',
+            fontSize:'3vw',
             color:'#06092A',
             textAlign:'center'
         },
@@ -75,7 +75,7 @@ const SlideThree = () => {
                         <Card className="card One">
                             <CardContent className="textGroup">
                                 <Grid className="titleHead">
-                                    <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.7vw',color:'white', padding:'5px'}}>
+                                    <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'2vw',color:'white'}}>
                                         Basic
                                     </Typography>
                                 </Grid>
@@ -113,7 +113,7 @@ const SlideThree = () => {
                         <Card className="card Two">
                         <CardContent className="textGroup">
                                 <Grid className="titleHead">
-                                    <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.7vw',color:'white', padding:'5px'}}>
+                                    <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'2vw',color:'white'}}>
                                         Standard
                                     </Typography>
                                 </Grid>
@@ -153,7 +153,7 @@ const SlideThree = () => {
                         <Card className="card Three">
                         <CardContent className="textGroup">
                                 <Grid className="titleHead">
-                                    <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'1.7vw',color:'white', padding:'5px'}}>
+                                    <Typography style={{position:'relative',height:'80%', top:'10%',fontFamily:'Ubuntu Bold',fontSize:'2vw',color:'white'}}>
                                         Premium
                                     </Typography>
                                 </Grid>
