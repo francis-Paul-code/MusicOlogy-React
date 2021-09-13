@@ -52,6 +52,17 @@ const useStyles = makeStyles(() => ({
             width:'100%',
             height:'25%',
             fontFamily:'Ubuntu Bold'
+        },
+        '& .Price':{
+            fontFamily:'Ubuntu Bold',
+            fontSize:'2.5vw',
+            color:'#06092A',
+            textAlign:'center'
+        },
+        '& .timePeriod':{
+            fontFamily:'Ubuntu Bold',
+            color:'grey',
+            textAlign:'center'
         }
     }
 }));
@@ -69,7 +80,19 @@ const SlideThree = () => {
                                     </Typography>
                                 </Grid>
                                 <Grid className="textContent">
-                                    
+                                    <Grid style={{position:'relative', padding:'0',height:'30%', width:'100%'}}>
+                                        <Typography className="Price">
+                                            $0.00
+                                        </Typography>
+                                        <Typography className="timePeriod">
+                                            /Month
+                                        </Typography>
+                                    </Grid>
+
+                                    <Grid style={{position:'relative', padding:'0',height:'70%', width:'100%'}}>
+
+                                    </Grid>
+
                                 </Grid>
                             </CardContent>
                             <CardActions className="btnGroup">
@@ -95,7 +118,19 @@ const SlideThree = () => {
                                     </Typography>
                                 </Grid>
                                 <Grid className="textContent">
-                                    
+                                    <Grid style={{position:'relative', padding:'0',height:'30%', width:'100%'}}>
+                                        <Typography className="Price">
+                                            $5.50
+                                        </Typography>
+                                        <Typography className="timePeriod">
+                                            /Month
+                                        </Typography>
+                                    </Grid>
+
+                                    <Grid style={{position:'relative', padding:'0',height:'70%', width:'100%'}}>
+
+                                    </Grid>
+
                                 </Grid>
                             </CardContent>
                             <CardActions className="btnGroup">
@@ -123,7 +158,19 @@ const SlideThree = () => {
                                     </Typography>
                                 </Grid>
                                 <Grid className="textContent">
-                                    
+                                    <Grid style={{position:'relative', padding:'0',height:'30%', width:'100%'}}>
+                                        <Typography className="Price">
+                                            $9.99
+                                        </Typography>
+                                        <Typography className="timePeriod">
+                                            /Month
+                                        </Typography>
+                                    </Grid>
+
+                                    <Grid style={{position:'relative', padding:'0',height:'70%', width:'100%'}}>
+
+                                    </Grid>
+
                                 </Grid>
                             </CardContent>
                             <CardActions className="btnGroup">
