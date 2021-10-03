@@ -4,7 +4,7 @@ body {
   margin:0;
   text-align: center;  
   min-height: 100vh;
-  background: linear-gradient(180deg, #000000 0%, #06092A 65.23%, #06092A 100%);
+  background: #060F1E  !important;
   color: white !important;
   overflow: hidden;
   justify-content:space-around;

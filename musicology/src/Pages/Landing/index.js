@@ -8,7 +8,7 @@ import { Link, BrowserRouter as Router } from 'react-router-dom';
 const useStyle = makeStyles(() => ({
     root:{
         width:'100%',
-        background:'linear-gradient(180deg, #000000 0%, #06092A 65.23%, #06092A 100%)',
+        background:'#060F1E',
         overflow:'hidden !important',
         '& .Nav':{
             position:'absolute',
