@@ -11,7 +11,7 @@ import m_Queue from '../../Images/icons8-circled-play-60.png';
 import m_Settings from '../../Images/icons8-settings-48.png';
 import m_Help from '../../Images/icons8-help-48.png';
 import logo_red from '../../Images/LOGO_HEAD_Red.png';
-import logo_white from '../../Images/LOGO_HEAD_White.png';
+
 
 const useStyle = makeStyles((theme) => ({
     root:{
@@ -239,9 +239,8 @@ const Home = () => {
                             <div className="navLinks2">
  
                                     <Btn variant="text" startIcon={<Avatar src={logo_red} style={{height:"3.5vh", width:"3.5vh"}}/>} 
-                                        onClick={(event, event2 ) =>{
+                                        onClick={(event) =>{
                                             event.target.style.background="#B93F2F";
-                                            event2.target.Avatar.src = {logo_white};
                                         }} style={{
                                             fontSize:"1.3vw",
                                             fontWeight:"bolder",
