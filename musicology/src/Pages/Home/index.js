@@ -175,7 +175,7 @@ const Home = () => {
                                     position:"relative ",
                                     textAlign:"left",
                                     width:"100%",
-                                    top:"1%"
+                                    top:"1%",
                                 }}>
                                     Artists
                                 </Btn>
@@ -189,7 +189,7 @@ const Home = () => {
                                     position:"relative ",
                                     borderRadius:"10",
                                     width:"100%",
-                                    top:"1%"
+                                    top:"1%",
                                 }}>
                                     Tracks
                                 </Btn>
@@ -203,7 +203,7 @@ const Home = () => {
                                     position:"relative ",
                                     borderRadius:"10",
                                     width:"100%",
-                                    top:"1%"
+                                    top:"1%",
                                 }}>
                                     Genres
                                 </Btn>
