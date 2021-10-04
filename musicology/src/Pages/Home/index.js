@@ -1,5 +1,7 @@
 import React from 'react';
 import {Grid, Typography, Button, makeStyles} from '@material-ui/core';
+import logo from '../../Images/LOGO.png';
+import {m_Notation} from '../../Images/icons8-music-notation-64.png';
 
 const useStyle = makeStyles((theme) => ({
     root:{
@@ -33,8 +35,24 @@ const useStyle = makeStyles((theme) => ({
             top:"5%",
             left:"4%",
             margin:"0",
-            background:"white"
+
+        },
+        '& .logo':{
+            position:"relative",
+            width:"85%",
+            left:"15%",
+            height:"6.3vh",
+            backgroundImage:`url(${logo})`,
+            backgroundSize:'contain',
+            backgroundPosition:'left',
+            backgroundRepeat:'no-repeat'
+        },
+        '& .navLinks1':{
+            position:"relative",
+            width:"75%",
+            left:"10%"
         }
+
 
     }
 }))
@@ -47,7 +65,24 @@ const Home = () => {
            <div style={{position:"relative", width:'100%',height:'100%',display:"flex"}}>
                 <Grid className="sideBar">
                     <Grid className="sideTab">
+                        <div className="logo">
+                        </div>
+                        <Grid>
+                            <div className="NavLinks1">
+                                <Button variant="text" startIcon={<m_Notation/>} style={{
+                                                                                           color:"white" ,
+                                                                                           fontSize:"2vh",
+                                                                                           fontFamily:"Ubuntu Bold",
+                                                                                           fontWeight:"bolder"
+                                                                                           //background:"#B93F2F"
+                                                                                          }}>
+                                    Top 100
+                                </Button>
+                            </div>
+                            <div className="NavLinks2">
 
+                            </div>
+                        </Grid>
                     </Grid>
                 </Grid>
                 <Grid className="contentCarrier">
