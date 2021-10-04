@@ -11,6 +11,7 @@ import m_Queue from '../../Images/icons8-circled-play-60.png';
 import m_Settings from '../../Images/icons8-settings-48.png';
 import m_Help from '../../Images/icons8-help-48.png';
 import logo_red from '../../Images/LOGO_HEAD_Red.png';
+import logo_white from '../../Images/LOGO_HEAD_White.png';
 
 
 const useStyle = makeStyles((theme) => ({
