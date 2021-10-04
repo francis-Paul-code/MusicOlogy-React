@@ -1,0 +1,21 @@
+body {
+  height:100%;
+  width:100%;
+  margin:0;
+  text-align: center;  
+  min-height: 100vh;
+  background: #060F1E  !important;
+  color: white !important;
+  overflow: hidden;
+  justify-content:space-around;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+/* 
+@media (prefers-reduced-motion: no-preference) {
+}
+ */
+
+
+
