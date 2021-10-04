@@ -1,9 +1,8 @@
 import React from 'react';
-import {Grid, Typography, Button} from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
+import {Grid, Typography, Button,  makeStyles , withStyles} from '@material-ui/core';
 import CarouselSlide from '../../Componets/Carousel/carouselSlide';
 import { Link, BrowserRouter as Router } from 'react-router-dom';
-// export let logo = document.getElementByClassName('.logo');
+import logo from '../../Images/LOGO.png';
 
 const useStyle = makeStyles(() => ({
     root:{
@@ -19,39 +18,28 @@ const useStyle = makeStyles(() => ({
             background:'transparent'
         },
         '& .logo':{
-            position:'relative',
-            boxSizing:'border-box',
-            display:'flex',
-            width:'20%',
-            height:'100%'
-        },
-        '& .logo1':{
-            position:'relative',
-            width:'45%',
-            height:'100%',
-            color:'white',
-            fontFamily:'Ubuntu !important',
-            fontWeight:'700',
-            fontSize:'2.1vw',
-            textAlign:'right',
-            padding:'5px 5px 0 5px'
-
-        },
-        '& .logo2':{
-            position:'relative',
-            width:'45%',
-            height:'100%',
-            color:'#B93F2F',
-            fontFamily:'Ubuntu !important',
-            fontWeight:'700',
-            fontSize:'2.1vw',
-            textAlign:'left',
-            padding:'5px 0 0 0'
+            position:"relative",
+            width:"26%",
+            top:"10%",
+            //height:"7%",
+            backgroundImage:`url(${logo})`,
+            backgroundSize:'contain',
+            backgroundPosition:'center',
+            backgroundRepeat:'no-repeat',
+            cursor:"pointer"
         },
         '& .navLinks':{
             position:'relative',
             height:'100%',
             width:'70%'
+        },
+        '& .navBar':{
+            position:'relative',
+            width:"100%",
+            justifyContent:"space-around",
+            textAlign:"right",
+            height:"90%",
+            top:"10%",
         },
         '& .carouselSlide':{
             position:'absolute',
@@ -89,6 +77,32 @@ const useStyle = makeStyles(() => ({
     }
 }));
 
+const Btn = withStyles({
+    root:{
+        background:"transparent",
+        color:"white",
+        cursor:"pointer",
+        border:'0',
+        height:"6.3vh",
+        padding:"0",
+        marginTop:"0.4vh",
+        transitionProperty:' background, box-shadow, border',
+        transitionDuration: '250ms, 250ms, 250ms',
+        transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1)',
+        transitionDelay: '0ms, 0ms, 0ms',
+    },
+    label:{
+        textTransform:"none",
+        justifyContent:"center",
+        fontFamily:"Ubuntu Bold",
+        height:"100%",
+    },
+    startIcon:{
+        marginLeft:"6px",
+        marginRight:"3px"
+    }
+
+})(props => <Button {...props} />);
 
 const Landing = () => {
 
@@ -114,53 +128,98 @@ event.target.style.color='#B93F2F'
     return (
         <div className={classes.root}>
             <div className="Nav">
-                <Grid className="logo">
-                    <Typography className="logo1">Music</Typography>
-                    <Typography className="logo2">Ology</Typography>
-                </Grid>
+                <div className="logo">
+                </div>
                 <Grid className="navLinks">
+                    <div className="navBar">
+                            <div style={{position:"relative",right:"15%"}}>
+                                    <Btn onMouseOver ={mouseOver}
+                                         onMouseOut ={mouseOut}
+                                        style={
+                                            {   
+                                                position:"relative",
+                                                width:"10%",
+                                                marginLeft:"2%",
+                                                fontFamily:"Ubuntu Bold",
+                                                fontSize:"2.7vh",
+                                                color:"white"
+                                            }
+                                        }
+                                    
+                                    >
+                                        Premium
+                                    </Btn>
 
-                    <ul style={{padding:'5px 5px 0 5px', margin:'0', position:'relative', right:'10%', float:'right'}}>
-
-                            <Button onMouseOver={mouseOver} onMouseOut={mouseOut} style={{color:'white', 
-                                                                                           width:'130px',  
-                                                                                           fontWeight:'600', 
-                                                                                           fontSize:'1.4vw'}}> 
-                                Premium
-                            </Button>
-                        
-                            <Button onMouseOver={mouseOver} onMouseOut={mouseOut} style={{color:'white', 
-                                                                                           width:'130px',  
-                                                                                           fontWeight:'600', 
-                                                                                           fontSize:'1.4vw'}}> 
-                                Download
-                            </Button>
-            
-                            <Button onMouseOver={mouseOver} onMouseOut={mouseOut}  style={{color:'white', 
-                                                                                           width:'130px',  
-                                                                                           fontWeight:'600', 
-                                                                                           fontSize:'1.4vw'}}>
-                                Support
-                            </Button>
-                    
-                            <Button  onMouseOver={mouseOver2} onMouseOut={mouseOut2}  style={{color:'#B93F2F', 
-                                                                                            width:'130px', 
-                                                                                            fontWeight:'600', 
-                                                                                            fontSize:'1.4vw'}}>
-                                Sign Up
-                            </Button>
-                    
-                            <Button style={{color:'#02030B', 
-                                              background:'#B93F2F', 
-                                              width:'130px',                                              
-                                            position:'relative', 
-                                             height:'80%',  
-                                            fontWeight:'900', 
-                                            fontSize:'1vw',
-                                            borderRadius:'50px'} }>                                              
-                                Log In
-                            </Button>
-                    </ul>
+                                    <Btn onMouseOver ={mouseOver}
+                                         onMouseOut ={mouseOut}
+                                        style={
+                                            {   
+                                                position:"relative",
+                                                width:"10%",
+                                                marginLeft:"2%",
+                                                fontFamily:"Ubuntu Bold",
+                                                fontSize:"2.7vh",
+                                                color:"white"
+                                            }
+                                        }
+                                    
+                                    >
+                                        Download
+                                    </Btn>
+                                    
+                                    <Btn onMouseOver ={mouseOver}
+                                         onMouseOut ={mouseOut}
+                                        style={
+                                            {   
+                                                position:"relative",
+                                                width:"10%",
+                                                marginLeft:"2%",
+                                                fontFamily:"Ubuntu Bold",
+                                                fontSize:"2.7vh",
+                                                color:"white"
+                                            }
+                                        }
+                                    
+                                    >
+                                        Support
+                                    </Btn>
+                                    
+                                    <Btn onMouseOver ={mouseOver2}
+                                         onMouseOut ={mouseOut2}
+                                        style={
+                                            {   
+                                                position:"relative",
+                                                width:"10%",
+                                                marginLeft:"2%",
+                                                fontFamily:"Ubuntu Bold",
+                                                fontSize:"2.7vh",
+                                                color:"#B93F2F"
+                                            }
+                                        }
+                                    
+                                    >
+                                        Sign In
+                                    </Btn>
+                                    
+                                    <Btn 
+                                        style={
+                                            {   
+                                                position:"relative",
+                                                width:"12%",
+                                                marginLeft:"2%",
+                                                borderRadius:"1.5vh",
+                                                fontFamily:"Ubuntu Bold",
+                                                fontSize:"2.7vh",
+                                                height:"98%",
+                                                backgroundColor:"#B93F2F"
+                                            }
+                                        }
+                                    
+                                    >
+                                        Sign Up
+                                    </Btn>
+                            </div>        
+                    </div>
                 </Grid>
             </div>
             <Grid className="carouselSlide">
